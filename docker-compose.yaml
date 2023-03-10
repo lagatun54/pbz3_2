@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  db:
+    image: franzinc/agraph
+    expose:
+      - 5432
+    environment:
+      - AGRAPH_SUPER_USER=test
+      - AGRAPH_SUPER_PASSWORD=test

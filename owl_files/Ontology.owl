@@ -1,0 +1,867 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#"
+     xml:base="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:family="http://www.cs.ox.ac.uk/isg/ontologies/UID/00775.owl#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#accompaniment_for -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#accompaniment_for">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#has_accompaniment"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Orchestra"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#accompaniment_in_civil_scene_for -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#accompaniment_in_civil_scene_for">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#accompaniment_for"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#has_accompaniment_in_civil_scene"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Wenchan"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Chou"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Dan"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Mo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#accompaniment_in_war_scene_for -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#accompaniment_in_war_scene_for">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#accompaniment_for"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#has_accompaniment_in_war_scene"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Wuchan"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Hualian"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Shang"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#costume_colors -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#costume_colors">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#costume_colors_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Kaichang"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Kao"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Mang"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Pei"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Yi"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Zhe"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Colors"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#costume_colors_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#costume_colors_of">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Colors"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Kaichang"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Kao"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Mang"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Pei"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Yi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Zhe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#has_a_feature -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#has_a_feature">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Beijing_Opera"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Costumes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#has_accompaniment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#has_accompaniment">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Orchestra"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#has_accompaniment_in_civil_scene -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#has_accompaniment_in_civil_scene">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#has_accompaniment"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Chou"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Dan"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Mo"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Wenchan"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#has_accompaniment_in_war_scene -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#has_accompaniment_in_war_scene">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#has_accompaniment"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Hualian"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Shang"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Wuchan"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#has_sound -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#has_sound">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Beijing_Opera"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Orchestra"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Wenchan"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Wuchan"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#makeup_colors -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#makeup_colors">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#makeup_colors_of"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Chou"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Dan"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Hualian"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Mo"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Person"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Shang"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Colors"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#makeup_colors_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#makeup_colors_of">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Colors"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Chou"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Dan"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Hualian"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Mo"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Shang"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#play_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#play_in">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Chou"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Dan"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Hualian"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Mo"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Person"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Shang"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Theatres"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Beijing_Opera"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#show -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#show">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Theatres"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Beijing_Opera"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#wear -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#wear">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#worn_by"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Chou"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Dan"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Hualian"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Mo"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Person"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Shang"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Costumes"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Kaichang"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Kao"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Mang"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Pei"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Yi"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Zhe"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#worn_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#worn_by">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Kaichang"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Kao"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Mang"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Pei"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Yi"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Zhe"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Chou"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Dan"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Hualian"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Mo"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Shang"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Chou -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Chou">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Colors -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Colors">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Beijing_Opera"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Costumes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Costumes">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Beijing_Opera"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Dan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Dan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Hualian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Hualian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Kaichang -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Kaichang">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Yi"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Kao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Kao">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Costumes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Mang -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Mang">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Costumes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Mo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Mo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Orchestra -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Orchestra">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Beijing_Opera"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Pei -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Pei">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Costumes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Person">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Beijing_Opera"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Shang -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Shang">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Theatres -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Theatres">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Beijing_Opera"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Wenchan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Wenchan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Orchestra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Wuchan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Wuchan">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Orchestra"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Yi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Yi">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Costumes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Zhe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Zhe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Costumes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Beijing_Opera -->
+
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Beijing_Opera">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#aoku -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#aoku">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Yi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#aoqun -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#aoqun">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Yi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#black -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#black">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Colors"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#blue -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#blue">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Colors"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#chayichou -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#chayichou">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Zhe"/>
+        <costume_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#gold"/>
+        <costume_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#red"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#choudan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#choudan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Chou"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#black"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#gold"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#silver"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#white"/>
+        <wear rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#niupi"/>
+        <wear rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#sanpei"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#damang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#damang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Mang"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#daolo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#daolo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Wuchan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#deheyuan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#deheyuan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Theatres"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#gailiankao -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#gailiankao">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Kao"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#gold -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#gold">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Colors"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#green -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#green">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Colors"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#huadan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#huadan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Dan"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#black"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#white"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#yellow"/>
+        <wear rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#aoku"/>
+        <wear rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#aoqun"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#huashan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#huashan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Dan"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#black"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#blue"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#green"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#red"/>
+        <wear rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#aoku"/>
+        <wear rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#aoqun"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#huguang_huiguan_da_xilou -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#huguang_huiguan_da_xilou">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Theatres"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#jiazi_hualian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#jiazi_hualian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Hualian"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#black"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#blue"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#gold"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#red"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#white"/>
+        <wear rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#qilin_kaichang"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#jingerhu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#jingerhu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Wenchan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#jinghu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#jinghu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Wenchan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#laodan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#laodan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Dan"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#red"/>
+        <wear rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#nupei"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#laosheng -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#laosheng">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Shang"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#black"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#red"/>
+        <wear rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#tuanhua_kaichang"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#mo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#mo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Mo"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#black"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#gold"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#silver"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#white"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#yellow"/>
+        <wear rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#siuamo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#naobo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#naobo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Wuchan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#niupi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#niupi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Zhe"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#nupei -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#nupei">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Pei"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#nuyingkao -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#nuyingkao">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Kao"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#paodaichou -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#paodaichou">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Mang"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#qilin_kaichang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#qilin_kaichang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Kaichang"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#qingyi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#qingyi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Dan"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#blue"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#red"/>
+        <wear rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#niupi"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#red -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#red">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Colors"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#sanpei -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#sanpei">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Pei"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#sanxian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#sanxian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Wenchan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#shi_kaichang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#shi_kaichang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Kaichang"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#silver -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#silver">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Colors"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#siuamo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#siuamo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Zhe"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#tongchui_hualian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#tongchui_hualian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Hualian"/>
+        <has_accompaniment_in_war_scene rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#daolo"/>
+        <has_accompaniment_in_war_scene rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#xiaolo"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#black"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#blue"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#gold"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#red"/>
+        <wear rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#shi_kaichang"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#tuanhua_kaichang -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#tuanhua_kaichang">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Kaichang"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#wenchou -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#wenchou">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Chou"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#black"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#green"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#red"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#white"/>
+        <wear rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#chayichou"/>
+        <wear rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#paodaichou"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#white -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#white">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Colors"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#wu_hualian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#wu_hualian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Hualian"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#blue"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#green"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#wuchou -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#wuchou">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Chou"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#gold"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#red"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#silver"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#white"/>
+        <wear rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#chayichou"/>
+        <wear rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#paodaichou"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#wudan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#wudan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Dan"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#black"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#blue"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#green"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#red"/>
+        <wear rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#gailiankao"/>
+        <wear rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#nuyingkao"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#wusheng -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#wusheng">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Shang"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#black"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#blue"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#green"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#red"/>
+        <wear rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#damang"/>
+        <wear rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#tuanhua_kaichang"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#xiaolo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#xiaolo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Wuchan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#xiaosheng -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#xiaosheng">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Shang"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#black"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#green"/>
+        <makeup_colors rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#red"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#yellow -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#yellow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Colors"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#yueqin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#yueqin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Wenchan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#zhengyici_xilou -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#zhengyici_xilou">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Theatres"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#zhongguo_guojia_jingjuyuan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#zhongguo_guojia_jingjuyuan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/александр/ontologies/2022/1/untitled-ontology-3#Theatres"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

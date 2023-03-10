@@ -1,0 +1,588 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/anton/pbz_2#"
+     xml:base="http://www.semanticweb.org/anton/pbz_2"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:pbz_2="http://www.semanticweb.org/anton/pbz_2#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/anton/pbz_2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#has_form_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/anton/pbz_2#has_form_of"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#date_of_issue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/anton/pbz_2#date_of_issue"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Air_Stamp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anton/pbz_2#Air_Stamp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anton/pbz_2#By_means_of_transportation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Automotive_Mark -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anton/pbz_2#Automotive_Mark">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anton/pbz_2#By_means_of_transportation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#By_means_of_transportation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anton/pbz_2#By_means_of_transportation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anton/pbz_2#Postage_stamp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Commemorative_stamp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anton/pbz_2#Commemorative_stamp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anton/pbz_2#General_purpose_mark"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Custom_brand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anton/pbz_2#Custom_brand">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anton/pbz_2#General_purpose_mark"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Express_mail_stamp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anton/pbz_2#Express_mail_stamp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anton/pbz_2#General_purpose_mark"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Ferry_stamp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anton/pbz_2#Ferry_stamp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anton/pbz_2#By_means_of_transportation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Field_Post -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anton/pbz_2#Field_Post">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anton/pbz_2#Service_stamp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Form -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anton/pbz_2#Form"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#General_purpose_mark -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anton/pbz_2#General_purpose_mark">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anton/pbz_2#Postage_stamp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Material -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anton/pbz_2#Material"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Newspaper_stamp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anton/pbz_2#Newspaper_stamp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anton/pbz_2#General_purpose_mark"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Offical -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anton/pbz_2#Offical">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anton/pbz_2#Vignette_stamp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Postage_Stamp_for_Postal_Services -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anton/pbz_2#Postage_Stamp_for_Postal_Services">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anton/pbz_2#Service_stamp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Postage_stamp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anton/pbz_2#Postage_stamp"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Postal_and_charity_stamp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anton/pbz_2#Postal_and_charity_stamp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anton/pbz_2#General_purpose_mark"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Prepaid -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anton/pbz_2#Prepaid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anton/pbz_2#Service_stamp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Private_mail_stamp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anton/pbz_2#Private_mail_stamp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anton/pbz_2#Vignette_stamp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Railway_stamp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anton/pbz_2#Railway_stamp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anton/pbz_2#By_means_of_transportation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Semi-official -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anton/pbz_2#Semi-official">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anton/pbz_2#Vignette_stamp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Service_stamp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anton/pbz_2#Service_stamp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anton/pbz_2#Postage_stamp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Standard_brand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anton/pbz_2#Standard_brand">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anton/pbz_2#General_purpose_mark"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Steam_stamp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anton/pbz_2#Steam_stamp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anton/pbz_2#By_means_of_transportation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Thematic_brand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anton/pbz_2#Thematic_brand">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anton/pbz_2#General_purpose_mark"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Unofficial -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anton/pbz_2#Unofficial">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anton/pbz_2#Vignette_stamp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Vignette_stamp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anton/pbz_2#Vignette_stamp">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anton/pbz_2#Postage_stamp"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Abraham_Lincoln_Issue -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anton/pbz_2#Abraham_Lincoln_Issue">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anton/pbz_2#Commemorative_stamp"/>
+        <has_form_of rdf:resource="http://www.semanticweb.org/anton/pbz_2#Square"/>
+        <date_of_issue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1866</date_of_issue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Aluminum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anton/pbz_2#Aluminum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anton/pbz_2#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Arch_and_Maple_Leaf_Issue -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anton/pbz_2#Arch_and_Maple_Leaf_Issue">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anton/pbz_2#Standard_brand"/>
+        <has_form_of rdf:resource="http://www.semanticweb.org/anton/pbz_2#Square"/>
+        <date_of_issue>1930—1931</date_of_issue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Armee-oberkommando_in_ostasien -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anton/pbz_2#Armee-oberkommando_in_ostasien">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anton/pbz_2#Offical"/>
+        <has_form_of rdf:resource="http://www.semanticweb.org/anton/pbz_2#Round"/>
+        <date_of_issue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1901</date_of_issue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Blue_Mercury -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anton/pbz_2#Blue_Mercury">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anton/pbz_2#Newspaper_stamp"/>
+        <has_form_of rdf:resource="http://www.semanticweb.org/anton/pbz_2#Square"/>
+        <date_of_issue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1851</date_of_issue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Chesjoslovensko_50h -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anton/pbz_2#Chesjoslovensko_50h">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anton/pbz_2#Prepaid"/>
+        <has_form_of rdf:resource="http://www.semanticweb.org/anton/pbz_2#Triangular"/>
+        <date_of_issue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1937</date_of_issue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Flora_of_the_USSR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anton/pbz_2#Flora_of_the_USSR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anton/pbz_2#Thematic_brand"/>
+        <has_form_of rdf:resource="http://www.semanticweb.org/anton/pbz_2#Rectangular"/>
+        <date_of_issue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1978</date_of_issue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Gold -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anton/pbz_2#Gold">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anton/pbz_2#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Health -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anton/pbz_2#Health">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anton/pbz_2#Postal_and_charity_stamp"/>
+        <has_form_of rdf:resource="http://www.semanticweb.org/anton/pbz_2#Square"/>
+        <date_of_issue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1945</date_of_issue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Hunter_on_horseback -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anton/pbz_2#Hunter_on_horseback">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anton/pbz_2#Custom_brand"/>
+        <has_form_of rdf:resource="http://www.semanticweb.org/anton/pbz_2#Square"/>
+        <date_of_issue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1933</date_of_issue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#In_favor_of_orphans_of_soldiers_of_the_active_army -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anton/pbz_2#In_favor_of_orphans_of_soldiers_of_the_active_army">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anton/pbz_2#Postal_and_charity_stamp"/>
+        <has_form_of rdf:resource="http://www.semanticweb.org/anton/pbz_2#Rectangular"/>
+        <date_of_issue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1904</date_of_issue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#One_hundred_years -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anton/pbz_2#One_hundred_years">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anton/pbz_2#Commemorative_stamp"/>
+        <has_form_of rdf:resource="http://www.semanticweb.org/anton/pbz_2#Square"/>
+        <date_of_issue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1888</date_of_issue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Paper -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anton/pbz_2#Paper">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anton/pbz_2#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Papyrus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anton/pbz_2#Papyrus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anton/pbz_2#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Petrograd_of_Montenegro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anton/pbz_2#Petrograd_of_Montenegro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anton/pbz_2#Offical"/>
+        <has_form_of rdf:resource="http://www.semanticweb.org/anton/pbz_2#Rectangular"/>
+        <date_of_issue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1915</date_of_issue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Puolustuskvoimat_kenttapostia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anton/pbz_2#Puolustuskvoimat_kenttapostia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anton/pbz_2#Field_Post"/>
+        <has_form_of rdf:resource="http://www.semanticweb.org/anton/pbz_2#Triangular"/>
+        <date_of_issue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1943</date_of_issue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Rectangular -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anton/pbz_2#Rectangular">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anton/pbz_2#Form"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Rhombus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anton/pbz_2#Rhombus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anton/pbz_2#Form"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Round -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anton/pbz_2#Round">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anton/pbz_2#Form"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Saint_Lucia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anton/pbz_2#Saint_Lucia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anton/pbz_2#Thematic_brand"/>
+        <has_form_of rdf:resource="http://www.semanticweb.org/anton/pbz_2#Rectangular"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Silk -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anton/pbz_2#Silk">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anton/pbz_2#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Square -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anton/pbz_2#Square">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anton/pbz_2#Form"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Triangular -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anton/pbz_2#Triangular">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anton/pbz_2#Form"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Wilding -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anton/pbz_2#Wilding">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anton/pbz_2#Standard_brand"/>
+        <has_form_of rdf:resource="http://www.semanticweb.org/anton/pbz_2#Rectangular"/>
+        <date_of_issue>1952-1967</date_of_issue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Wood -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anton/pbz_2#Wood">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anton/pbz_2#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#500th_anniversary_of_the_Turn-and-Taxis_post_office -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anton/pbz_2#500th_anniversary_of_the_Turn-and-Taxis_post_office">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anton/pbz_2#Private_mail_stamp"/>
+        <has_form_of rdf:resource="http://www.semanticweb.org/anton/pbz_2#Rectangular"/>
+        <date_of_issue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1990</date_of_issue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/anton/pbz_2#Exprès_—_Спешная_почта -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/anton/pbz_2#Exprès_—_Спешная_почта">
+        <rdf:type rdf:resource="http://www.semanticweb.org/anton/pbz_2#Express_mail_stamp"/>
+        <has_form_of rdf:resource="http://www.semanticweb.org/anton/pbz_2#Rectangular"/>
+        <date_of_issue rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1932</date_of_issue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/anton/pbz_2#Air_Stamp"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anton/pbz_2#Automotive_Mark"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anton/pbz_2#Ferry_stamp"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anton/pbz_2#Railway_stamp"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anton/pbz_2#Steam_stamp"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/anton/pbz_2#By_means_of_transportation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anton/pbz_2#General_purpose_mark"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anton/pbz_2#Service_stamp"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anton/pbz_2#Vignette_stamp"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/anton/pbz_2#Commemorative_stamp"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anton/pbz_2#Custom_brand"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anton/pbz_2#Express_mail_stamp"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anton/pbz_2#Newspaper_stamp"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anton/pbz_2#Postal_and_charity_stamp"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anton/pbz_2#Standard_brand"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anton/pbz_2#Thematic_brand"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/anton/pbz_2#Field_Post"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anton/pbz_2#Postage_Stamp_for_Postal_Services"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anton/pbz_2#Prepaid"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/anton/pbz_2#Form"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anton/pbz_2#Material"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anton/pbz_2#Postage_stamp"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/anton/pbz_2#Offical"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anton/pbz_2#Private_mail_stamp"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anton/pbz_2#Semi-official"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anton/pbz_2#Unofficial"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
